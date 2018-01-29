@@ -1,0 +1,29 @@
+:root {
+    --base: #c73939;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    text-align: center;
+    color: rgba(0, 0, 0, .87);
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    max-width: 80%;
+    max-height: 70vh;
+}
+
+.js {
+    color: var(--base);
+}
